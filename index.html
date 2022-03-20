@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <button class="btn-header" id="view-high-scores">High Scores</button>
+        </div>
+        <div>
+            <p>Time: <span id="timeLeft">xxx</span></p>
+        </div>
+    </header>
+
+    <section>
+        <div id="mainDiv">
+            <div id="gridContainer">
+                <p id="questionDisplay">Welcome to the code Quiz!</p>
+                <p id="finalScoreDisplay"></p>
+                <p id="enterInitials"></p>
+                <textarea id=enterInitialsTextArea></textarea>
+                <button class="btn" id="start-quiz">Start Quiz</button>
+                <button class="btn" id="choice1"></button>
+                <button class="btn" id="choice2"></button>
+                <button class="btn" id="choice3"></button>
+                <button class="btn" id="choice4"></button>
+                <button class="btn" id="submitScore"></button>
+            </div>
+            <div id="answerCorrectWrongGrid"></div>
+            <p id=answerCorrectWrong></p>
+        </div>
+    </section>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
